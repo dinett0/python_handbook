@@ -1,0 +1,1 @@
+{int(x) for x in numbers if int(x) & 1}
