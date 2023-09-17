@@ -5,8 +5,9 @@
 #         x = str(x)
 #     return x == x[::-1]
 
+
 # # ACCEPTED
-# def is_palindrome(x):
-#     if isinstance(x, int):
-#         x = str(x)
-#     return x == x[::-1]
+def is_palindrome(x):
+    if isinstance(x, int):
+        x = str(x)
+    return x == x[::-1]
